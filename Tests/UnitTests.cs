@@ -108,7 +108,7 @@ namespace GithubActionsLab
             Assert.Throws<FormatException>(() => Program.Power("a", "a"));
         }
 
-        public void Divide_Null()
+        public void Power_Null()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Power("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, "1"));
